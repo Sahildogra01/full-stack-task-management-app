@@ -52,7 +52,7 @@ const LoginPage = () => {
         onChange={(e) => setPassword(e.target.value)}
       />
       <button onClick={handleLogin}>Login</button>
-      <p>
+      <p className='button_test'>
         Don't have an account? <a href="/register">Register</a>
       </p>
     </div>
